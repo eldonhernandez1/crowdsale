@@ -4,16 +4,17 @@ import logo from '../logo.png';
 
 const Navigation = () => {
 	return(
-	<Navbar>
+		<Navbar>
 		<img 
-		alt="Kalina" 
-		src={ logo } 
-		width="40" 
-		height="40" 
-		className="d-inline-block aligh-top mx-3"
-	/>
-		<Navbar.Brand href="#" className="fw-light fs-2 text">Kalina ICO Crowdsale</Navbar.Brand>
-	</Navbar>			
+		  alt="Kalina" 
+		  src={ logo } 
+		  width="40" 
+		  height="40" 
+		  className="d-inline-block aligh-top mx-3"
+		/>
+		<Navbar.Brand href="#" className="fw-light fs-2 text-color">Kalina ICO Crowdsale</Navbar.Brand>
+	  </Navbar>
+				  
 	)
 }
 

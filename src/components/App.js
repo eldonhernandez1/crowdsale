@@ -74,16 +74,16 @@ function App() {
 
   return (
     <Container>
-      <Navigation />
+      <Navigation className='' />
 
-      <h2 className='my-4 text-center'>Introducing the new token on the blockchain...</h2>
-      <h1 className='my-4 text-center'>Kalina</h1>
+      <h2 className='my-4 text-center text-color'>Introducing the blockchain's' the new token...</h2>
+      <h1 className='my-4 text-center text-color'>Kalina</h1>
 
       {isLoading ? (
         <Loading />
       ) : (
         <>
-          <p className='text-center'><strong>Current Price:</strong> {price} ETH</p>
+          <p className='text-center text-color'><strong>Current Price:</strong> {price} ETH</p>
           <Buy provider={provider} price={price} crowdsale={crowdsale} setIsLoading={setIsLoading} />
           <Progress maxTokens={maxTokens} tokensSold={tokensSold} />
         </>

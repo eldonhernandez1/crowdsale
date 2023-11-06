@@ -10,6 +10,12 @@
   --dark: #343a40;
 }
 
+/* Onest is for Headlines and Logo. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Onest:wght@100&display=swap');
+/* Inter is for body copy */
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100&display=swap');
+
+
 /* Body Styles BEGIN */
 body {
   margin: 0;
@@ -18,11 +24,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../src/images/Kalina-Crowdsale-bg.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  color: #ffc107;
 }
-
+.text-color {
+  color: #00ccff !important;
+  font-family: 'Inter'
+}
+p {
+  color: #00ccff;
+  font-family: 'Inter';
+}
 /* Body Styles END */
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Inter', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
